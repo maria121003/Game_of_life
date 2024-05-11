@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de la Vida</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Juego de la Vida</h1>
+        <div class="header__buttons">
+            <span class="header__btn header__btn--start" onclick="startGame()"
+            >Iniciar</span>
+            <span class="header__btn header__btn--stop" onclick="stopGame()"
+            >Detener</span>
+            <span class="header__btn header__btn--clear" onclick="clearBoard()"
+            >Limpiar</span>
+            <span id="show" class="header__btn header__btn--next">Mostrar</span>
+        </div>
+    </header>
+    <main>
+        <div id="gameBoard"></div>
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>
